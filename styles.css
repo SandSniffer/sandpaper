@@ -29,27 +29,21 @@ h2 {
 table {
     width: 100%;
     border-collapse: collapse;
+    border: 1px solid #874d4d; /* Added to give the table an outer border */
 }
 
 th, td {
     padding: 1rem;
-    text-align: left;
-    border-bottom: 1px solid #874d4d;
+    text-align: center; /* Centering text in all table cells */
+    border: 1px solid #874d4d; /* Added to add borders around each cell */
 }
 
 th {
     background-color: #874d4d;
+    color: #fff; /* Changed to ensure text in the header is visible */
 }
 
 td {
-    background-color: #f2a4a4;
-}
-
-th, td:nth-child(3), td:nth-child(5), td:nth-child(7) {
-    text-align: right;
-}
-
-td:nth-child(3), td:nth-child(5), td:nth-child(7) {
     background-color: #f2a4a4;
 }
 
